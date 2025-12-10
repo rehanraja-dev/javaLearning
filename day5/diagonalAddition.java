@@ -20,7 +20,7 @@ class diagonalAddition{
                 if(i == j){
                     dAddition1 = dAddition1 + mat[i][j];
                 }
-                if (i + j == n - 1 && i != j){
+                if (i + j == n - 1 ){
                     dAddition1 = dAddition1 + mat[i][j];
                 }
                 
